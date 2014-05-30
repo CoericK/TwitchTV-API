@@ -1,0 +1,21 @@
+{
+  "name": "twitchtv-api",
+  "author": {
+    "name": "Erick Arroyo",
+    "email": "erick.1726@gmail.com",
+    "url": "http://twitter.com/coerick"
+  },
+  "version": "0.0.3",
+  "private": false,
+  "scripts": {
+    "start": "node example.js"
+  },
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoericK/TwitchTV-API.git"
+  },
+  "dependencies": {
+    "request": "^2.36.0"
+  }
+}
