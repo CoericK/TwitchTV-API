@@ -5,7 +5,7 @@
     "email": "erick.1726@gmail.com",
     "url": "http://twitter.com/coerick"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "scripts": {
     "start": "node example.js"
@@ -16,6 +16,8 @@
     "url": "https://github.com/CoericK/TwitchTV-API.git"
   },
   "dependencies": {
+    "json-bignum": "0.0.3",
+    "promise": "^5.0.0",
     "request": "^2.36.0"
   }
 }
