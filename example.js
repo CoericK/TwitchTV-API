@@ -1,6 +1,6 @@
 var TwitchTV = require('./lib');
 
-var channel = 'arteezy';
+var channel = 'd2l_es';
 
 TwitchTV.channels.info(channel).done(function(res){
 	console.log(res);
