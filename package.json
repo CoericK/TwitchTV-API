@@ -3,9 +3,9 @@
   "author": {
     "name": "Erick Arroyo",
     "email": "erick.1726@gmail.com",
-    "url": "http://twitter.com/coerick"
+    "url": "http://twitter.com/CoericK"
   },
-  "version": "0.0.4",
+  "version": "0.0.6",
   "private": false,
   "scripts": {
     "start": "node example.js"
