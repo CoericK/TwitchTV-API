@@ -24,12 +24,24 @@ TwitchTV.channels.info(channel).done(function(res){
 });
 ```
 
-### Channel
+### Channels
 ============
 
 ## `Get Channel's Info`
 
-#### TwitchTV.channels.info(channel)done.(callback, onError)
+#### TwitchTV.channels.info(channel).done.(callback, onError)
 * `channel` - String, channel's user to get the info.
 * `callback` - Function, callback to be executed, return args: `response`.
-* `onError` - Function, callback to returns args: `err`.
+* `onError` - Function, if there is an error, the onError functions is executed instead of the callback, to returns args: `err`.
+
+
+
+### Streams
+============
+
+## `Get Stream's Info`
+
+#### TwitchTV.streams.info(channel).done.(callback, onError)
+* `channel` - String, channel's user to get the info.
+* `callback` - Function, callback to be executed, return args: `response`.
+* `onError` - Function, if there is an error, the onError functions is executed instead of the callback, to returns args: `err`.
